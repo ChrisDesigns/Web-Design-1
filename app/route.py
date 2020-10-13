@@ -2,5 +2,5 @@ from bottle import get, template
 
 
 @get('/route')
-def index():
+def route():
     return template("route")

@@ -4,7 +4,7 @@ import datetime
 
 
 @get('/form')
-def index():
+def form():
     return template("form")
 
 

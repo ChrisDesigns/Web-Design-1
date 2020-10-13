@@ -3,6 +3,6 @@ from app.database import return_execute
 
 
 @get("/list")
-def read():
+def list():
     result = return_execute("select * from todo")
     return template("list", rows=result)

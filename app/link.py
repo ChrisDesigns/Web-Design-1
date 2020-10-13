@@ -2,5 +2,5 @@ from bottle import get, template
 
 
 @get('/link')
-def index():
+def link():
     return template("link")
