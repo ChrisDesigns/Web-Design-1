@@ -1,5 +1,9 @@
 import os
-from app import home
+from app import home, route, link, form, list, varying
+from app.database import setup_table
+
+# make sure table is structure properly
+setup_table()
 
 # are we executing at PythonAnywhere?
 ON_PYTHONANYWHERE = "PYTHONANYWHERE_DOMAIN" in os.environ
